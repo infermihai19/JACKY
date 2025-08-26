@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Perdóname, mi amor ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #a99aff, #fad0c4);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #181717;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #6d39e6;
+    }
+    p {
+      font-size: 1.3em;
+      margin: 15px 0;
+    }
+    .heart {
+      color: red;
+      font-size: 2em;
+      animation: float 2s infinite ease-in-out;
+      display: inline-block;
+      margin: 0 5px;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+    button {
+      background: #2a0035;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #d628bf;
+    }
+  </style>
+</head>
+<body>
+  <h1>❤️Perdóname jacky❤️ </h1>
+  <h1> ❤️ te quiero mucho ❤️</h1>
+  <div>
+    <span class="heart">❤️</span>
+    <span class="heart">💖</span>
+    <span class="heart">💘</span>
+    <span class="heart">💞</span>
+    <span class="heart">💕</span>
+    <span class="heart">❤️</span>
+  </div>
+  <p>No soy perfecto, pero mi corazón siempre late por ti.</p>
+  <p>Este poco tiempo aprendi a quererte,te fuiste ganando mi corazon y aqui me tienes enamorado </p>
+  <p>Quiero regalarte una sonrisa, un abrazo, y todo mi amor.</p>
+  <div>
+    <span class="heart">❤️</span>
+    <span class="heart">💖</span>
+    <span class="heart">💘</span>
+    <span class="heart">💞</span>
+    <span class="heart">💕</span>
+    <span class="heart">❤️</span>
+  </div>
+  <button onclick="mostrarMensaje()">Haz clic aquí</button>
+  <p id="sorpresa"></p>
+
+  <script>
+    function mostrarMensaje() {
+      document.getElementById("sorpresa").innerHTML = 
+     
+        "Te quiero con todo mi corazón 💕<br>Gracias por darme la oportunidad de pedirte perdón.<br>Prometo siempre cuidar de ti.<br>Lo unico que quiero decirte que no se como ni cuando me enamore de ti jacky en serio perdoname no pienso cometer los mismos errores  ";
+    }
+  </script>
+</body>
+</html>
